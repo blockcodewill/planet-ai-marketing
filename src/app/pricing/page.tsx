@@ -99,7 +99,7 @@ export default function PricingPage() {
         </p>
         <div className="mt-8 flex items-center justify-center gap-4">
           <a
-            href="https://planet-ai-staging.fly.dev/"
+            href="https://api.withplanetai.cn/"
             className="rounded-md bg-indigo-500 px-6 py-3 text-base font-medium text-white hover:bg-indigo-400"
           >
             Get API Key
@@ -219,13 +219,13 @@ export default function PricingPage() {
         </p>
         <div className="mt-8 flex justify-center gap-3">
           <a
-            href="https://planet-ai-staging.fly.dev/"
+            href="https://api.withplanetai.cn/"
             className="rounded-md bg-indigo-500 px-6 py-3 text-base font-medium text-white hover:bg-indigo-400"
           >
             Get API Key
           </a>
           <a
-            href="mailto:hello@planet.ai"
+            href="mailto:hello@withplanetai.cn"
             className="rounded-md border border-zinc-700 px-6 py-3 text-base font-medium text-zinc-200 hover:border-zinc-500"
           >
             Talk to sales

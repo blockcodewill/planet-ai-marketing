@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 const PY_OPENAI = `from openai import OpenAI
 
 client = OpenAI(
-    base_url="https://api.planet.ai/v1",
+    base_url="https://api.withplanetai.cn/v1",
     api_key="sk-pl-...",          # your Planet AI key
 )
 
@@ -23,7 +23,7 @@ print(resp.choices[0].message.content)`;
 const JS_OPENAI = `import OpenAI from "openai";
 
 const client = new OpenAI({
-  baseURL: "https://api.planet.ai/v1",
+  baseURL: "https://api.withplanetai.cn/v1",
   apiKey: process.env.PLANET_AI_KEY,
 });
 
@@ -36,7 +36,7 @@ console.log(resp.choices[0].message.content);`;
 const PY_ANTHROPIC = `import anthropic
 
 client = anthropic.Anthropic(
-    base_url="https://api.planet.ai/anthropic/v1",
+    base_url="https://api.withplanetai.cn/anthropic/v1",
     api_key="sk-pl-...",
 )
 
@@ -52,7 +52,7 @@ const PY_GEMINI = `from google import genai
 client = genai.Client(
     api_key="sk-pl-...",
     http_options={
-        "base_url": "https://api.planet.ai/gemini",
+        "base_url": "https://api.withplanetai.cn/gemini",
     },
 )
 
@@ -174,7 +174,7 @@ export default function DocsPage() {
               <tr className="border-t border-zinc-900">
                 <td className="px-4 py-3 text-zinc-200">OpenAI-compatible</td>
                 <td className="px-4 py-3 text-zinc-100">
-                  https://api.planet.ai/v1
+                  https://api.withplanetai.cn/v1
                 </td>
                 <td className="px-4 py-3 text-zinc-400">
                   Authorization: Bearer sk-pl-...
@@ -183,7 +183,7 @@ export default function DocsPage() {
               <tr className="border-t border-zinc-900">
                 <td className="px-4 py-3 text-zinc-200">Anthropic native</td>
                 <td className="px-4 py-3 text-zinc-100">
-                  https://api.planet.ai/anthropic/v1
+                  https://api.withplanetai.cn/anthropic/v1
                 </td>
                 <td className="px-4 py-3 text-zinc-400">
                   x-api-key: sk-pl-...
@@ -192,7 +192,7 @@ export default function DocsPage() {
               <tr className="border-t border-zinc-900">
                 <td className="px-4 py-3 text-zinc-200">Gemini native</td>
                 <td className="px-4 py-3 text-zinc-100">
-                  https://api.planet.ai/gemini/v1beta
+                  https://api.withplanetai.cn/gemini/v1beta
                 </td>
                 <td className="px-4 py-3 text-zinc-400">
                   x-goog-api-key: sk-pl-...
@@ -351,7 +351,7 @@ export default function DocsPage() {
       <Section eyebrow="Get started" title="Grab a key">
         <div className="flex flex-wrap gap-3">
           <a
-            href="https://planet-ai-staging.fly.dev/"
+            href="https://api.withplanetai.cn/"
             className="rounded-md bg-indigo-500 px-6 py-3 text-base font-medium text-white hover:bg-indigo-400"
           >
             Get API Key

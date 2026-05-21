@@ -3,7 +3,7 @@
 Marketing site for **Planet AI** — an LLM API gateway (fork of [Calcium-Ion/new-api](https://github.com/Calcium-Ion/new-api), AGPL-3.0).
 
 Backend repo: [blockcodewill/planet-ai](https://github.com/blockcodewill/planet-ai).
-Staging app: [planet-ai-staging.fly.dev](https://planet-ai-staging.fly.dev/).
+Staging app: [api.withplanetai.cn](https://api.withplanetai.cn/).
 
 ## Stack
 

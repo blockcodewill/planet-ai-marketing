@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   },
   description:
     "Unified LLM API gateway. Access OpenAI, Anthropic, Google, DeepSeek, Qwen, Kimi, Moonshot, Zhipu and 100+ models through one OpenAI-compatible endpoint and one API key. Zero markup.",
-  metadataBase: new URL("https://planet.ai"),
+  metadataBase: new URL("https://www.withplanetai.cn"),
   openGraph: {
     title: "Planet AI — 100+ models, one API",
     description:
@@ -59,13 +59,13 @@ function SiteHeader() {
         </nav>
         <div className="flex items-center gap-3">
           <a
-            href="https://planet-ai-staging.fly.dev/"
+            href="https://api.withplanetai.cn/"
             className="text-sm text-zinc-400 hover:text-zinc-100"
           >
             Sign in
           </a>
           <a
-            href="https://planet-ai-staging.fly.dev/"
+            href="https://api.withplanetai.cn/"
             className="rounded-md bg-zinc-100 px-4 py-2 text-sm font-medium text-black hover:bg-white"
           >
             Get API Key
@@ -125,7 +125,7 @@ function SiteFooter() {
           <ul className="mt-3 space-y-2 text-zinc-500">
             <li>
               <a
-                href="https://planet-ai-staging.fly.dev/"
+                href="https://api.withplanetai.cn/"
                 className="hover:text-zinc-300"
               >
                 Dashboard

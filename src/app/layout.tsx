@@ -167,7 +167,10 @@ function SiteFooter() {
           <span>
             © 2026 Planet AI · AGPL-3.0 · fork of Calcium-Ion/new-api
           </span>
-          <span>all systems operational</span>
+          <span>
+            Servers located in the United States · data may be processed cross-border ·{" "}
+            <span className="text-zinc-600">all systems operational</span>
+          </span>
         </div>
       </div>
     </footer>
